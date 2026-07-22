@@ -164,26 +164,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal, onOpenConsulta
 
         </div>
 
-        {/* Bottom Rights Bar */}
-        <div className="pt-8 border-t border-forest-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-sage-muted">
-          <p>© {new Date().getFullYear()} RRUP Advisory & Associates. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <button
-              onClick={() => onOpenLegalModal('icai')}
-              className="hover:text-white transition-colors"
-            >
-              ICAI Member Standards
-            </button>
-            <span>•</span>
-            <button
-              onClick={onOpenConsultation}
-              className="hover:text-white transition-colors"
-            >
-              Executive Desk
-            </button>
-          </div>
-        </div>
-
       </div>
     </footer>
   );
