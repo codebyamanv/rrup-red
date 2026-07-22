@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal, onOpenConsulta
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
 
         {/* Top Trust Badges Bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pb-10 border-b border-forest-border">
+        {/*<div className="grid grid-cols-2 md:grid-cols-4 gap-4 pb-10 border-b border-forest-border">
           <div className="flex items-center gap-3 bg-forest p-3.5 rounded-xl border border-forest-border">
             <ShieldCheck className="w-5 h-5 text-sage-muted shrink-0" />
             <div>
@@ -47,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal, onOpenConsulta
               <p className="text-[10px] text-sage-muted">{JURISDICTIONS_DATA.length} Served Jurisdictions</p>
             </div>
           </div>
-        </div>
+        </div>*/}
 
         {/* Main Footer Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
