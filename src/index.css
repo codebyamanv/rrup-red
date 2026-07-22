@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Cinzel', Georgia, serif;
+
+  --color-forest: #1E1B1E;
+  --color-forest-dark: #141214;
+  --color-forest-light: #322D32;
+  --color-forest-border: #4A3F42;
+  --color-sage: #7A2E2E;
+  --color-sage-hover: #62231F;
+  --color-sage-light: #F3EAE9;
+  --color-sage-border: #D9C9C7;
+  --color-sage-muted: #C79B96;
+  --color-warm-bg: #F7F4F3;
+  --color-text-main: #332E30;
+  --color-text-muted: #6B6265;
+  --color-border-subtle: #E8E1E0;
+  --color-footer-muted: #B8A6A4;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-text-main);
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-forest);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom animations & scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F4F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6C9C7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5A19E;
+}
+
+/* Print styles for downloadable advisory memos or audit summaries */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "RRUP Advisory",
+  "description": "Strategic Advisory, Treasury Management & Corporate Finance for Indian Enterprises and Global Clients",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
