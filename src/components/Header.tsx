@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenConsultation, onSelectSect
             aria-label="RRUP Advisory Home"
           >
             <div className="w-18 rounded-xl flex items-center justify-center font-bold text-lg ">
-              <img src="/src/assets/images/logo.png" alt=""  />
+              <img src="/logo.png" alt=""  />
             </div>
           </button>
 

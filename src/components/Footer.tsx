@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal, onOpenConsulta
             <div className="flex items-center gap-4">
 
             <div className="w-18 aspect-square p-2 rounded-full flex items-center justify-center font-bold text-lg bg-white ">
-              <img src="/src/assets/images/logo.png" alt=""  />
+              <img src="/logo.png" alt=""  />
               </div>
               <div className='font-bold text-2xl'>RRUP Advisory Pvt. Ltd.</div>
             </div>
